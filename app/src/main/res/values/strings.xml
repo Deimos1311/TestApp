@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="currency_hint">EUR</string>
+    <string name="find">Find</string>
+    <string name="sort">Sort</string>
+
+    <string-array name="spinner">
+        <item>A-Z</item>
+        <item>Z-A</item>
+        <item>Min -> Max</item>
+        <item>Max -> Min</item>
+    </string-array>
+</resources>

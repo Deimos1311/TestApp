@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dp_8"
+    android:paddingBottom="@dimen/dp_8">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="EUR"
+        android:textSize="22sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_currency_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="3.00"
+        android:textSize="22sp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_favorites"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:src="@drawable/ic_favorites_unselected" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
